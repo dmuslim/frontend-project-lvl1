@@ -9,4 +9,5 @@ https://asciinema.org/a/LFPheMMGcjlHHgWvNWWzlTWF4
 
 
 Игра: "Калькулятор"
-https://asciinema.org/a/Wq7IkqWJbdvoKR3YZiY9V2QRW
+https://asciinema.org/a/9Yi2a6htWS1UHsASjsgBHZV4m
+Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ
