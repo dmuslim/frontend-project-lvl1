@@ -5,9 +5,9 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 
-https://asciinema.org/a/LFPheMMGcjlHHgWvNWWzlTWF4
+Игра: "Проверка на чётность"
+https://asciinema.org/a/494273
 
 
 Игра: "Калькулятор"
 https://asciinema.org/a/9Yi2a6htWS1UHsASjsgBHZV4m
-Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ
