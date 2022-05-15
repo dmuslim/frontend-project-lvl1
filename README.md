@@ -11,3 +11,6 @@ https://asciinema.org/a/494273
 
 Игра: "Калькулятор"
 https://asciinema.org/a/9Yi2a6htWS1UHsASjsgBHZV4m
+
+Игра "Наибольший общий делитель"
+https://asciinema.org/a/bfEzW4aVbjtqypiyll2HYi2ki
