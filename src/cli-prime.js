@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
 import { getRandomNumber } from './index.js';
+
 const runGameOfPrime = () => {
   console.log('brain-prime\nWelcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
@@ -32,5 +33,5 @@ const runGameOfPrime = () => {
   if (count === 4) {
     console.log(`Congratulations, ${name}!`);
   }
-}
+};
 export default runGameOfPrime;
