@@ -11,7 +11,6 @@ while (count <= 3) {
   const arr1 = [];
   const arr2 = [];
   let arrItem = getRandomNumber(1, 50);
-  
   const step = getRandomNumber(2, 6);
   const missedNumber = getRandomNumber(1, 9);
   for (let i = 0; i < 10; i += 1) {
