@@ -32,5 +32,5 @@ const runGameOfGcd = () => {
   if (count === 4) {
     console.log(`Congratulations, ${name}!`);
   }
-}
+};
 export default runGameOfGcd;
