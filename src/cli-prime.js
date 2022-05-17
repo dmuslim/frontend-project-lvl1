@@ -24,10 +24,10 @@ while (count <= 3) {
   if (answer === String(rightAnswer)) {
     console.log('Correct!'); count += 1;
   } else if (answer !== String(rightAnswer)) {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'\nLet's try again, ${name}!`); count +=10;
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'\nLet's try again, ${name}!`); count += 10;
   } else {
     console.log('this is wrong answer ;(.'); count += 10;
-  };
+  }
 }
 if (count === 4) {
   console.log(`Congratulations, ${name}!`);
