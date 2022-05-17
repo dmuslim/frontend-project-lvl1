@@ -31,3 +31,4 @@ while (count <= 3) {
 if (count === 4) {
   console.log(`Congratulations, ${name}!`);
 }
+export default name;
