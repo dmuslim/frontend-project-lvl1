@@ -17,8 +17,8 @@ const runGameOfProgression = () => {
       arr1.push(arrItem);
       arrItem += step;
     }
-    for (const item of arr1) {
-      arr2.push(item);
+    for (let j = 0; j < 10; j += 1) {
+      arr2.push(arr1[j]);
     }
 
     arr2[missedNumber] = '..';
@@ -37,5 +37,5 @@ const runGameOfProgression = () => {
   if (count === 4) {
     console.log(`Congratulations, ${name}!`);
   }
-}
+};
 export default runGameOfProgression;
