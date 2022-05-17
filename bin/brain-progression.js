@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-import { name } from "../src/cli-progression.js";
+import { name } from '../src/cli-progression.js';
