@@ -8,8 +8,8 @@ const runGameOfGcd = () => {
   console.log('Find the greatest common divisor of given numbers.');
 
   const getGreatestCommonDivider = (a, b) => {
-    if (a % b === 0) {
-      return b;
+    if (!b) {
+      return a;
     }
     return getGreatestCommonDivider(b, a % b);
   };
