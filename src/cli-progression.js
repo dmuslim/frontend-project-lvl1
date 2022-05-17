@@ -35,5 +35,5 @@ while (count <= 3) {
   }
 }
 if (count === 4) {
-  console.log('Congratulations, ' + name + '!');
+  console.log(`Congratulations, ${name}!`);
 }
