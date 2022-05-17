@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-import { name } from '../src/cli-even.js';
+import runGameOfEven from '../src/cli-even.js';
+
+runGameOfEven();

@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 
+const runGameOfEven = () => {
+
 console.log('brain-even\nWelcome to the Brain Games!');
-export const name = readlineSync.question('May I have your name? ');
+const name = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${name}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no"');
 let num = 0;
@@ -24,4 +26,5 @@ while (count <= 3) {
 if (count === 4) {
   console.log(`Congratulations, ${name}!`);
 }
-export default name;
+}
+export default runGameOfEven;

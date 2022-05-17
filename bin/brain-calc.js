@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-import { name } from '../src/cli-calc.js';
+import runGameOfCalc from '../src/cli-calc.js';
+
+runGameOfCalc();

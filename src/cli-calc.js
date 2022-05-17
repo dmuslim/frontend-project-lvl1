@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 
+const runGameOfCalc = () => {
+
 console.log('brain-calc\nWelcome to the Brain Games!');
-export const name = readlineSync.question('May I have your name? ');
+const name = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${name}!`);
 console.log('What is the result of the expression?');
 
@@ -39,4 +41,6 @@ while (count <= 3) {
 if (count === 4) {
   console.log(`Congratulations, ${name}!`);
 }
-export default name;
+};
+
+export default runGameOfCalc;
