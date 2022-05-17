@@ -3,7 +3,7 @@ import { getRandomNumber } from './index.js';
 
 const runGameOfGcd = () => {
   console.log('brain-gcd\nWelcome to the Brain Games!');
-  export const name = readlineSync.question('May I have your name? ');
+  const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log('Find the greatest common divisor of given numbers.');
 
