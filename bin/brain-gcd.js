@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-import { name } from '../src/cli-gcd.js';
+import runGameOfGcd from '../src/cli-gcd.js';
+runGameOfGcd();

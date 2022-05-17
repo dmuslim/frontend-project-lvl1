@@ -29,7 +29,7 @@ const runGameOfCalc = () => {
     const rightAnswer = calculate(num1, num2, randomOperator);
     console.log(`Question: ${num1} ${randomOperator} ${num2}`);
     const answer = readlineSync.question('Your answer: ');
-      if (answer === String(rightAnswer)) {
+    if (answer === String(rightAnswer)) {
       console.log('Correct!'); count += 1;
     } else if (answer !== String(rightAnswer)) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'\nLet's try again, ${name}!`); count += 10;
