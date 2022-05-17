@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import runGameOfProgression, { name } from '../src/cli-progression.js';
+import runGameOfProgression from '../src/cli-progression.js';
 runGameOfProgression();
