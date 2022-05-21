@@ -1,12 +1,11 @@
 import readlineSync from 'readline-sync';
+import getRandomNumber from '../index.js';
 
 const runGameOfCalc = () => {
   console.log('brain-calc\nWelcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log('What is the result of the expression?');
-
-  const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
   const calculate = (number1, number2, operator) => {
     switch (operator) {
