@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../index.js';
+import getRandomNumber from '../index.js';
 
 const runGameOfGcd = () => {
   console.log('brain-gcd\nWelcome to the Brain Games!');
