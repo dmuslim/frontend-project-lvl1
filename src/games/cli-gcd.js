@@ -16,8 +16,8 @@ const runGameOfGcd = () => {
 
   let count = 1;
   while (count <= 3) {
-    const num1 = getRandomNumber(0, 100);
-    const num2 = getRandomNumber(0, 100);
+    const num1 = getRandomNumber(1, 100);
+    const num2 = getRandomNumber(1, 100);
     const rightAnswer = getGreatestCommonDivider(num1, num2);
     console.log(`Question: ${num1} ${num2}`);
     const answer = readlineSync.question('Your answer: ');
